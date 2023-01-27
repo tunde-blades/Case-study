@@ -1,0 +1,25 @@
+/* font-family: 'Black Han Sans', sans-serif;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'Paytone One', sans-serif;
+font-family: 'Russo One', sans-serif;
+font-family: 'Titillium Web', sans-serif;*/
+
+
+*{
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    font-family: 'Paytone One', sans-serif;
+}
+button{
+    cursor: pointer;
+}
+.container{
+    position: relative;
+    margin: auto;
+    max-width: 1000px;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
