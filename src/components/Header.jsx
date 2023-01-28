@@ -11,7 +11,7 @@ export default function Header() {
                 <button><Link to='/'>Home</Link></button>
                 <button><Link to='/payments'>Works</Link></button>
                 <button><Link to='/credentials'> Credentials</Link></button>
-                <button className={style.contactbtn}>Contact</button>
+                <button className={style.contactbtn}><Link to='/logistics'>Logistics</Link></button>
             </nav>
         </section>
     </div>

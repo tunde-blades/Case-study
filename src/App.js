@@ -3,6 +3,7 @@ import React from 'react'
 import Portfolio from "./pages/Portfolio"
 import Credentials from "./pages/Credentials"
 import Payments from "./pages/Payments"
+import Logistics from "./pages/Logistics"
 
 
 
@@ -14,6 +15,7 @@ const App = () => {
          <Route path="/" element={<Portfolio/>}/>
          <Route path="/credentials" element={<Credentials/>}/>
           <Route path="/payments" element={<Payments/>}/>
+            <Route path="/logistics" element={<Logistics/>}/>
       </Routes>
       
     </div>
