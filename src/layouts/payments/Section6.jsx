@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './section.module.css'
-import chart1 from '../../images/chart1.png'
+import chart1 from '../../images/chart3.png'
 
 export default function Section6() {
   return (

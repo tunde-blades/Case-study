@@ -1,14 +1,14 @@
 import React from 'react'
 import style from './section.module.css'
-import chart1 from '../../images/chart1.png'
+import chart2 from '../../images/chart4.png'
 
-export default function Section6() {
+
+export default function Section7() {
   return (
     <div className='container'>
-        <section className={style.section6}>
-            <h3>Journey Maps</h3>
+        <section className={style.section7}>
             <section>
-                <h4>Persona A</h4>
+                <h4>Persona B</h4>
                 <section className={style.mainbox}>
                     <div className={style.headbox}>
                          <div>
@@ -52,7 +52,7 @@ export default function Section6() {
                     </div>
                     <div className={style.box2}>
                         <h5>Action</h5>
-                        <img src={chart1} alt="" />
+                        <img src={chart2} alt="" />
                     </div>
                     <div className={style.box1}>
                         <h5>Emotion</h5>
