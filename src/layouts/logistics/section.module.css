@@ -261,7 +261,7 @@
     margin: auto;
     padding: 40px 0;
     width: 80%;
-    margin-bottom: 20px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -306,11 +306,19 @@
 }
 
 
-
+.section6{
+    background-color: rgba(104, 104, 104, 0.082);
+}
+.section6 h3{
+    margin-bottom: 50px;
+}
 .mainbox{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px;
 }
 .headbox{
     position: relative;
@@ -333,19 +341,25 @@
     font-size: 13px;
 }
 .box1{
-    position: relative;
-    margin: auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-content: flex-start;
     gap: 20px;
 }
-.box1 h5{
-    min-height: 35px;
-    max-height: 35px;
+.box1 p{
+   min-height: 35px;
 }
 .box1 small{
     line-height: 1em;
 }
+.box1 ul{
+    flex: 1;
+}
+.box1 h5,
+.box2 h5{
+    padding:0 10px;
+}
+
 .box2{
     display: grid;
     grid-template-columns: .1fr 1fr;

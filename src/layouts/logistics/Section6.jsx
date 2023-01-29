@@ -5,7 +5,7 @@ import chart1 from '../../images/chart3.png'
 export default function Section6() {
   return (
     <div className='container'>
-        <section>
+        <section className={style.section6}>
             <h3>Journey Maps</h3>
             <section>
                 <h4>Persona A</h4>
@@ -30,22 +30,22 @@ export default function Section6() {
                     <div className={style.box1}>
                         <h5>Phase</h5>
                         <div>
-                            <h5>Package the document</h5>
+                            <p>Package the document</p>
                             <hr />
                             <small>Onyebuchi looks for a way to package documents</small>
                         </div>
                         <div>
-                            <h5>Puts document in car</h5>
+                            <p>Puts document in car</p>
                             <hr />
                             <small>He decides to put the document in car</small>
                         </div>
                         <div>
-                            <h5>Drives to the bank</h5>
+                            <p>Drives to the bank</p>
                             <hr />
                             <small>Starts car and drinve all the way</small>
                         </div>
                         <div>
-                            <h5>Gives document to account officer</h5>
+                            <p>Gives document to account officer</p>
                             <hr />
                             <small>Gives account officer the item and heads back home</small>
                         </div>
@@ -53,6 +53,53 @@ export default function Section6() {
                     <div className={style.box2}>
                         <h5>Action</h5>
                         <img src={chart1} alt="" />
+                    </div>
+                    <div className={style.box1}>
+                        <h5>Emotion</h5>
+                        <ul>
+                            <li>uncertain</li>
+                            <li>confused</li>
+                        </ul>
+                        <ul>
+                            <li>undecisive</li>
+                        </ul>
+                        <ul>
+                            <li>impetient</li>
+                        </ul>
+                        <ul>
+                            <li>stressed</li>
+                            <li>satisfied</li>
+                        </ul>
+                    </div>
+                    <div className={style.box1}>
+                        <h5>Pain point</h5>
+                        <ul>
+                            <li>unable to find</li>
+                        </ul>
+                        <ul>
+                            <li>expensive</li>
+                        </ul>
+                        <ul>
+                            <li>wait too long</li>
+                        </ul>
+                        <ul>
+                            <li>expensive</li>
+                        </ul>
+                    </div>
+                    <div className={style.box1}>
+                        <h5>Opportunity</h5>
+                        <ul>
+                            <li>adding package documents</li>
+                        </ul>
+                        <ul>
+                            <li>more efficient mode of transportation</li>
+                        </ul>
+                        <ul>
+                            <li>better way to beat traffic</li>
+                        </ul>
+                        <ul>
+                            <li>prevent double journey</li>
+                        </ul>
                     </div>
                    
                 </section>
