@@ -10,6 +10,7 @@ import Section5 from '../layouts/payments/Section5'
 import style from './background.module.css'
 import Section8 from '../layouts/payments/Section8'
 import Section9 from '../layouts/payments/Section9'
+import Section10 from '../layouts/payments/Section10'
 
 export default function Payments() {
   return (
@@ -24,6 +25,7 @@ export default function Payments() {
         <Section7/>
         <Section8/>
         <Section9/>
+        <Section10/>
     </div>
   )
 }
