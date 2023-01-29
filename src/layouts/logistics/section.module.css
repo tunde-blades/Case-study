@@ -306,6 +306,12 @@
 }
 
 
+
+.mainbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .headbox{
     position: relative;
     margin: auto;

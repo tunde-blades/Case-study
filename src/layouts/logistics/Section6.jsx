@@ -9,7 +9,7 @@ export default function Section6() {
             <h3>Journey Maps</h3>
             <section>
                 <h4>Persona A</h4>
-                <section>
+                <section className={style.mainbox}>
                     <div className={style.headbox}>
                          <div>
                             <h5>User</h5>
