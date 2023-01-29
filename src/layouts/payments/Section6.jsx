@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './section.module.css'
-import chart1 from '../../images/chart3.png'
+import chart4 from '../../images/chart4.png'
 
 export default function Section6() {
   return (
@@ -13,46 +13,46 @@ export default function Section6() {
                     <div className={style.headbox}>
                          <div>
                             <h5>User</h5>
-                            <p>Onyebuchi</p>
+                            <p>Yinka</p>
                         </div>
                         <div>
                             <h5>Scenerio</h5>
-                            <p>He wants to send hard copy of his business registration to his account officer</p>
+                            <p>He wants to buy data subscription to do a research assignment</p>
                         </div>
                         <div>
                             <h5>Expectations</h5>
                             <ul>
-                                <li>Easy to send</li>
-                                <li>Fast and efficient</li>
+                                <li>Quick</li>
+                                <li>No extra charge</li>
                             </ul>
                         </div>
                     </div>
                     <div className={style.box1}>
                         <h5>Phase</h5>
                         <div>
-                            <p>Package the document</p>
+                            <p>Go out</p>
                             <hr />
-                            <small>Onyebuchi looks for a way to package documents</small>
+                            <small>Yinka goes out of the house</small>
                         </div>
                         <div>
-                            <p>Puts document in car</p>
+                            <p>Meet a vendor</p>
                             <hr />
-                            <small>He decides to put the document in car</small>
+                            <small>He meets the nearest vendor</small>
                         </div>
                         <div>
-                            <p>Drives to the bank</p>
+                            <p>Pay money</p>
                             <hr />
-                            <small>Starts car and drinve all the way</small>
+                            <small>He gives the vendor money</small>
                         </div>
                         <div>
-                            <p>Gives document to account officer</p>
+                            <p>collect papper airtime and load</p>
                             <hr />
-                            <small>Gives account officer the item and heads back home</small>
+                            <small>Collects the paper airtime and then loads it before getting the data</small>
                         </div>
                     </div>
                     <div className={style.box2}>
                         <h5>Action</h5>
-                        <img src={chart1} alt="" />
+                        <img src={chart4} alt="" />
                     </div>
                     <div className={style.box1}>
                         <h5>Emotion</h5>
@@ -83,19 +83,19 @@ export default function Section6() {
                             <li>wait too long</li>
                         </ul>
                         <ul>
-                            <li>expensive</li>
+                            <li>stressed</li>
                         </ul>
                     </div>
                     <div className={style.box1}>
                         <h5>Opportunity</h5>
                         <ul>
-                            <li>adding package documents</li>
+                            <li>use of an application</li>
                         </ul>
                         <ul>
                             <li>more efficient mode of transportation</li>
                         </ul>
                         <ul>
-                            <li>better way to beat traffic</li>
+                            <li>safer way of paying utility</li>
                         </ul>
                         <ul>
                             <li>prevent double journey</li>

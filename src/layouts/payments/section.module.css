@@ -256,15 +256,21 @@
     margin-top: 100px;
     margin-bottom: 50px;
 }
+.section7{
+    margin-bottom: 100px;
+}
 .section6 h3{
     margin-bottom: 50px;
     padding-left: 10px;
+    text-align: center;
 }
 .section6 h4,
 .section7 h4{
     padding-left: 10px;
+    text-align: center;
 }
-.mainbox{
+.section6 .mainbox,
+.section7 .mainbox{
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -328,6 +334,79 @@
     max-width: 750px;
 }
 
+
+
+.section8{
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+.section8 h3{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.section8 .mainbox{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    flex: 1;
+}
+.section8 .boxhead{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: flex-end;
+}
+.section8 .content{
+    display: flex;
+    gap: 20px;
+}
+.section8 .content p{
+    width: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 30px ;
+}
+.section8 ul{
+    flex: 1;
+    padding: 30px;
+    border-radius: .5em;
+}
+.section8 .list1{
+    background-color: rgb(198, 243, 127);
+    color: green;
+}
+.section8 .list2{
+    background-color: rgb(157, 219, 248);
+    color: rgb(6, 87, 163);
+}
+.section8 .list3{
+    background-color: rgb(253, 226, 153);
+    color: rgb(175, 144, 5);
+}
+.section8 .list4{
+    background-color: rgb(255, 160, 227);
+    color: rgb(182, 5, 79);
+}
+
+.section9 h3{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+.section9 div{
+    padding:0 20px;
+}
+.section9 picture{
+    margin: 100px 0;
+   display: flex;
+   justify-content: flex-end;
+}
+.section9 img{
+    /* width: 90%; */
+    max-width: 400px;
+}
 
 
 

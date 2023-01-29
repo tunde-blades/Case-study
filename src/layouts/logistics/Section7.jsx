@@ -13,11 +13,11 @@ export default function Section7() {
                     <div className={style.headbox}>
                          <div>
                             <h5>User</h5>
-                            <p>Onyebuchi</p>
+                            <p>Yemi</p>
                         </div>
                         <div>
                             <h5>Scenerio</h5>
-                            <p>He wants to send hard copy of his business registration to his account officer</p>
+                            <p>She wants to send a recently made dress to one of her customer</p>
                         </div>
                         <div>
                             <h5>Expectations</h5>
@@ -30,24 +30,24 @@ export default function Section7() {
                     <div className={style.box1}>
                         <h5>Phase</h5>
                         <div>
-                            <p>Package the document</p>
+                            <p>Package the dress</p>
                             <hr />
-                            <small>Onyebuchi looks for a way to package documents</small>
+                            <small>Yemi looks for a way to package dress</small>
                         </div>
                         <div>
-                            <p>Puts document in car</p>
+                            <p>Gives money and dress to staff to send</p>
                             <hr />
-                            <small>He decides to put the document in car</small>
+                            <small>she decide to send a staff, thereby paying the staffs fare to and fro</small>
                         </div>
                         <div>
-                            <p>Drives to the bank</p>
+                            <p>staff enters public bus</p>
                             <hr />
-                            <small>Starts car and drinve all the way</small>
+                            <small>Staff enters public us</small>
                         </div>
                         <div>
-                            <p>Gives document to account officer</p>
+                            <p>Gives package and returns</p>
                             <hr />
-                            <small>Gives account officer the item and heads back home</small>
+                            <small>Gives package to client and returns to meet Yemi</small>
                         </div>
                     </div>
                     <div className={style.box2}>
@@ -89,7 +89,7 @@ export default function Section7() {
                     <div className={style.box1}>
                         <h5>Opportunity</h5>
                         <ul>
-                            <li>adding package documents</li>
+                            <li>alternative source of packages</li>
                         </ul>
                         <ul>
                             <li>more efficient mode of transportation</li>
@@ -98,7 +98,7 @@ export default function Section7() {
                             <li>better way to beat traffic</li>
                         </ul>
                         <ul>
-                            <li>prevent double journey</li>
+                            <li>prevent double expense</li>
                         </ul>
                     </div>
                    

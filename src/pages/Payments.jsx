@@ -8,6 +8,8 @@ import Section3 from '../layouts/payments/Section3'
 import Section4 from '../layouts/payments/Section4'
 import Section5 from '../layouts/payments/Section5'
 import style from './background.module.css'
+import Section8 from '../layouts/payments/Section8'
+import Section9 from '../layouts/payments/Section9'
 
 export default function Payments() {
   return (
@@ -20,6 +22,8 @@ export default function Payments() {
         <Section5/>
         <Section6/>
         <Section7/>
+        <Section8/>
+        <Section9/>
     </div>
   )
 }

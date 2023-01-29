@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './section.module.css'
-import chart2 from '../../images/chart4.png'
+import chart3 from '../../images/chart3.png'
 
 
 export default function Section7() {
@@ -13,46 +13,46 @@ export default function Section7() {
                     <div className={style.headbox}>
                          <div>
                             <h5>User</h5>
-                            <p>Onyebuchi</p>
+                            <p>Murphy</p>
                         </div>
                         <div>
                             <h5>Scenerio</h5>
-                            <p>He wants to send hard copy of his business registration to his account officer</p>
+                            <p>He wants to pay for his electricity bill</p>
                         </div>
                         <div>
                             <h5>Expectations</h5>
                             <ul>
-                                <li>Easy to send</li>
-                                <li>Fast and efficient</li>
+                                <li>Easy to pay</li>
+                                <li>No queue at subscription</li>
                             </ul>
                         </div>
                     </div>
                     <div className={style.box1}>
                         <h5>Phase</h5>
                         <div>
-                            <p>Package the document</p>
+                            <p>Go to electricity company</p>
                             <hr />
-                            <small>Onyebuchi looks for a way to package documents</small>
+                            <small>Murphy contemplates mode going to pay for his bils</small>
                         </div>
                         <div>
-                            <p>Puts document in car</p>
+                            <p>wait in queue</p>
                             <hr />
-                            <small>He decides to put the document in car</small>
+                            <small>Murphy joins a long queue</small>
                         </div>
                         <div>
-                            <p>Drives to the bank</p>
+                            <p>pays for prepaid</p>
                             <hr />
-                            <small>Starts car and drinve all the way</small>
+                            <small>Murphy pays for utility bills</small>
                         </div>
                         <div>
-                            <p>Gives document to account officer</p>
+                            <p>Goes back home</p>
                             <hr />
-                            <small>Gives account officer the item and heads back home</small>
+                            <small>He collects the receipt and goes home</small>
                         </div>
                     </div>
                     <div className={style.box2}>
                         <h5>Action</h5>
-                        <img src={chart2} alt="" />
+                        <img src={chart3} alt="" />
                     </div>
                     <div className={style.box1}>
                         <h5>Emotion</h5>
@@ -89,16 +89,16 @@ export default function Section7() {
                     <div className={style.box1}>
                         <h5>Opportunity</h5>
                         <ul>
-                            <li>adding package documents</li>
+                            <li>use of application</li>
                         </ul>
                         <ul>
-                            <li>more efficient mode of transportation</li>
+                            <li>more efficient way to no join a queue</li>
                         </ul>
                         <ul>
-                            <li>better way to beat traffic</li>
+                            <li>better way to be activated</li>
                         </ul>
                         <ul>
-                            <li>prevent double journey</li>
+                            <li>prevent double expense</li>
                         </ul>
                     </div>
                    
