@@ -306,6 +306,50 @@
 }
 
 
+.headbox{
+    position: relative;
+    margin: auto;
+    justify-content: flex-start;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.headbox div{
+    flex: 1;
+    background-color: rgb(255, 192, 245);
+    padding:5px 10px;
+}
+.headbox li{
+    list-style: inside;
+    font-size: 13px;
+}
+.headbox p{
+    font-size: 13px;
+}
+.box1{
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.box1 h5{
+    min-height: 35px;
+    max-height: 35px;
+}
+.box1 small{
+    line-height: 1em;
+}
+.box2{
+    display: grid;
+    grid-template-columns: .1fr 1fr;
+    justify-items: start;
+
+}
+.box2 img{
+    width: 100%;
+}
+
 
 
 

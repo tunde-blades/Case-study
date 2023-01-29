@@ -5,6 +5,7 @@ import Section2 from '../layouts/logistics/Section2'
 import Section3 from '../layouts/logistics/Section3'
 import Section4 from '../layouts/logistics/Section4'
 import Section5 from '../layouts/logistics/Section5'
+import Section6 from '../layouts/logistics/Section6'
 
 export default function Logistics() {
   return (
@@ -15,6 +16,7 @@ export default function Logistics() {
         <Section3/>
         <Section4/>
         <Section5/>
+        <Section6/>
     </div>
   )
 }
