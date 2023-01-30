@@ -21,7 +21,10 @@ export default function Section4() {
                     Necta bank enables users to conveniently perform banking functions like
                 </small>
                 <ul>
-                    <li></li>
+                    <li>Sending money</li>
+                    <li>Paying Bills</li>
+                    <li>taking loan</li>
+                    <li>saving money</li>
                 </ul>
                 <div className={style.btns}>
                     <button className={style.figmabtn}>Figma file</button>

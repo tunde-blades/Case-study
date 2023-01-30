@@ -1,6 +1,9 @@
 import React from 'react'
 import style from './section.module.css'
 import mobile1 from '../../images/mobile1.png'
+import linkedinlogo from '../../images/LinkedIn logo.svg'
+import behancelogo from '../../images/behance logo.svg'
+import dribblelogo from '../../images/dribbble logo.svg'
 
 export default function Section2() {
   return (
@@ -8,8 +11,9 @@ export default function Section2() {
         <section className={style.section2}>
             <section className={style.trustee}>
                 <picture>
-                    gdgdgdgdg
-                    <img src='' alt="" />
+                    <img src={linkedinlogo} alt="" />
+                    <img src={dribblelogo} alt="" />
+                    <img src={behancelogo} alt="" />
                 </picture>
             </section>
             <section className={style.servicebox}>
