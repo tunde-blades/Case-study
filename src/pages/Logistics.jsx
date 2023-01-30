@@ -7,6 +7,8 @@ import Section4 from '../layouts/logistics/Section4'
 import Section5 from '../layouts/logistics/Section5'
 import Section6 from '../layouts/logistics/Section6'
 import Section7 from '../layouts/logistics/Section7'
+import Section8 from '../layouts/logistics/Section8'
+import Section9 from '../layouts/logistics/Section9'
 import style from './background.module.css'
 
 export default function Logistics() {
@@ -20,6 +22,8 @@ export default function Logistics() {
         <Section5/>
         <Section6/>
         <Section7/>
+        <Section8/>
+        <Section9/>
     </div>
   )
 }

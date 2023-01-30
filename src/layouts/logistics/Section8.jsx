@@ -1,9 +1,10 @@
 import React from 'react'
 import style from './section.module.css'
+import analysis from '../../images/analysis.png'
 
 export default function Section8() {
   return (
-    <div>
+    <div className='container'>
         <section className={style.section8}>
             <h3>Eisen Hover matrix</h3>
             <section className={style.mainbox}>
@@ -18,7 +19,7 @@ export default function Section8() {
                             <li>security features</li>
                             <li>no extra charges</li>
                         </ul>
-                        <ul clasAsName={style.list2}>
+                        <ul className={style.list2}>
                             <li>stored emails</li>
                             <li>no sign up</li>
                             <li>customer care</li>
@@ -33,10 +34,15 @@ export default function Section8() {
                         <ul className={style.list4}>
                             <li>linking card</li>
                         </ul>
-
                     </div>
-
             </section>
+        </section>
+        <section className={style.analysis}>
+            <h3>Root cause analysis  (RCA)</h3>
+            <picture>
+                <button>Problem</button>
+                <img src={analysis} alt="" />
+            </picture>
         </section>
     </div>
   )
