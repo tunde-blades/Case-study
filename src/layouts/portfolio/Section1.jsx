@@ -7,8 +7,22 @@ import figma from '../../images/figma.png'
 import designApp from '../../images/designapp.png'
 import background from '../../images/portfolio background.svg'
 import vector from '../../images/Vector.svg'
+import Menu from '../../components/Menu'
+
+import { useState } from 'react'
+
 
 export default function Section1() {
+
+    let [openNav, setopenNav] = useState(false)
+    
+    let displayNav = ()=>{
+        setopenNav(!openNav)
+    }
+
+    
+
+
   return (
     <div className='container'>
          <picture className={style.background}>
@@ -16,6 +30,15 @@ export default function Section1() {
                 </picture>
          <section className={style.headers}>
             <header>Maxwell Chris-Ogar</header>
+            <div className={style.menu}>
+                <button onClick={displayNav}>{
+                openNav ? <div>cancel</div> : <div>open</div>
+              }</button>
+                {
+                    openNav && <Menu/> 
+                }
+                
+            </div>
             <nav className={style.navs}>
                 <button><Link to='/'>Home</Link></button>
                 <button><Link to='/payments'>Works</Link></button>

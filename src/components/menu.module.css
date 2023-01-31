@@ -1,0 +1,22 @@
+.mobilenavs{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: rgb(250, 250, 250);
+    height: 200px;
+    width: 100px;
+    gap: 20px;
+    z-index: 10;
+    right: 0;
+    padding: 20px;
+    border-radius: .3em;
+}
+.mobilenavs button{
+    padding: 5px 10px;
+    border-radius: .3em;
+    border: 1px solid  rgb(65, 2, 124);
+    }
+    .mobilenavs button a{
+        color:  rgb(65, 2, 124);
+    }

@@ -1,9 +1,12 @@
 
-
+.menu{
+    display: none;
+}
 .headers{
     padding: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 1000px;
     position: relative;
     margin: auto;
@@ -92,7 +95,6 @@ nav .contactbtn{
     top: 0;
     right: 0;
     width: 100%;
-    z-index: 10;
 }
 
 .section1 .man img{
@@ -360,6 +362,18 @@ nav .contactbtn{
     .backG{
         display: none;
     }
+    .navs{
+        display: none;
+    }
+    .menu{
+        position: relative;
+        width: 200px;
+        text-align: right;
+        display: block;
+    }
+    .mobilenavs{
+        position: absolute;
+    }
     .section1{
         padding: 0;
     }
@@ -380,6 +394,8 @@ nav .contactbtn{
         margin: auto;
     }
     .section1 .man{
+        position: relative;
+        margin: auto;
         width: 100%;
     }
     .section1 .man img{
