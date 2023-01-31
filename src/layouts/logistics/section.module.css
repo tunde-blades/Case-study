@@ -625,6 +625,9 @@
     top: 80%;
     width: 25%;
 }
+.product .content p{
+    margin: 0;
+}
 
 
 .utilbox{

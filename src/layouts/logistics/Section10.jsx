@@ -54,99 +54,99 @@ export default function Section10() {
             <section className={style.images}>
                 <picture>
                     <img src={phone1} alt="" />
-                    <p>Landing Page</p>
+                    <p>Loading Page</p>
                 </picture>
                 <picture>
                     <img src={phone2} alt="" />
-                    <p>Landing Page</p>
+                    <p>Onboarding 1</p>
                 </picture>
                 <picture>
                     <img src={phone3} alt="" />
-                    <p>Landing Page</p>
+                    <p>Onboarding 2</p>
                 </picture>
                 <picture>
                     <img src={phone4} alt="" />
-                    <p>Landing Page</p>
+                    <p>Onboarding 3</p>
                 </picture>
                 <picture>
                     <img src={phone5} alt="" />
-                    <p>Landing Page</p>
+                    <p>Sign up</p>
                 </picture>
                 <picture>
                     <img src={phone6} alt="" />
-                    <p>Landing Page</p>
+                    <p>OTP verification</p>
                 </picture>
                 <picture>
                     <img src={phone7} alt="" />
-                    <p>Landing Page</p>
+                    <p>Create password</p>
                 </picture>
                 <picture>
                     <img src={phone8} alt="" />
-                    <p>Landing Page</p>
+                    <p>Finish</p>
                 </picture>
                 <picture>
                     <img src={phone9} alt="" />
-                    <p>Landing Page</p>
+                    <p>log in</p>
                 </picture>
                 <picture>
                     <img src={phone10} alt="" />
-                    <p>Landing Page</p>
+                    <p>home page</p>
                 </picture>
                 <picture>
                     <img src={phone11} alt="" />
-                    <p>Landing Page</p>
+                    <p>send item</p>
                 </picture>
                 <picture>
                     <img src={phone12} alt="" />
-                    <p>Landing Page</p>
+                    <p>recipient screen</p>
                 </picture>
                 <picture>
                     <img src={phone13} alt="" />
-                    <p>Landing Page</p>
+                    <p>summary</p>
                 </picture>
                 <picture>
                     <img src={phone14} alt="" />
-                    <p>Landing Page</p>
+                    <p>payments</p>
                 </picture>
                 <picture>
                     <img src={phone15} alt="" />
-                    <p>Landing Page</p>
+                    <p>searching rider</p>
                 </picture>
                 <picture>
                     <img src={phone16} alt="" />
-                    <p>Landing Page</p>
+                    <p>rider route</p>
                 </picture>
                 <picture>
                     <img src={phone17} alt="" />
-                    <p>Landing Page</p>
+                    <p>rider arrived</p>
                 </picture>
                 <picture>
                     <img src={phone18} alt="" />
-                    <p>Landing Page</p>
+                    <p>enroute</p>
                 </picture>
                 <picture>
                     <img src={phone19} alt="" />
-                    <p>Landing Page</p>
+                    <p>rate rider</p>
                 </picture>
                 <picture>
                     <img src={phone20} alt="" />
-                    <p>Landing Page</p>
+                    <p>track item</p>
                 </picture>
                 <picture>
                     <img src={phone21} alt="" />
-                    <p>Landing Page</p>
+                    <p>tracking Page</p>
                 </picture>
                 <picture>
                     <img src={phone22} alt="" />
-                    <p>Landing Page</p>
+                    <p>add new card</p>
                 </picture>
                 <picture>
                     <img src={phone23} alt="" />
-                    <p>Landing Page</p>
+                    <p>profile</p>
                 </picture>
                 <picture>
                     <img src={phone24} alt="" />
-                    <p>Landing Page</p>
+                    <p>chat</p>
                 </picture>
             </section>
             <picture className={style.imageback}>
@@ -158,75 +158,75 @@ export default function Section10() {
                <section className={style.riders}>
                     <picture>
                     <img src={phone25} alt="" />
-                    <p>Landing Page</p>
+                    <p>Loading screen</p>
                 </picture>
                 <picture>
                     <img src={phone26} alt="" />
-                    <p>Landing Page</p>
+                    <p>log in screen</p>
                 </picture>
                 <picture>
                     <img src={phone27} alt="" />
-                    <p>Landing Page</p>
+                    <p>profile screen</p>
                 </picture>
                 <picture>
                     <img src={phone28} alt="" />
-                    <p>Landing Page</p>
+                    <p>offline mode screen</p>
                 </picture>
                  <picture>
                     <img src={phone29} alt="" />
-                    <p>Landing Page</p>
+                    <p>enroute pickup point</p>
                 </picture>
                 <picture>
                     <img src={phone30} alt="" />
-                    <p>Landing Page</p>
+                    <p>online mode screen</p>
                 </picture>
                 <picture>
                     <img src={phone31} alt="" />
-                    <p>Landing Page</p>
+                    <p>arrived screen</p>
                 </picture>
                 <picture>
                     <img src={phone32} alt="" />
-                    <p>Landing Page</p>
+                    <p>waiting screen</p>
                 </picture>
                  <picture>
                     <img src={phone33} alt="" />
-                    <p>Landing Page</p>
+                    <p>arrived destination screen</p>
                 </picture>
                 <picture>
                     <img src={phone34} alt="" />
-                    <p>Landing Page</p>
+                    <p>signature screen</p>
                 </picture>
                 <picture>
                     <img src={phone35} alt="" />
-                    <p>Landing Page</p>
+                    <p>reason for cancel screen</p>
                 </picture>
                 <picture>
                     <img src={phone36} alt="" />
-                    <p>Landing Page</p>
+                    <p>order summary</p>
                 </picture>
                  <picture>
                     <img src={phone37} alt="" />
-                    <p>Landing Page</p>
+                    <p>enroute to destination</p>
                 </picture>
                 <picture>
                     <img src={phone38} alt="" />
-                    <p>Landing Page</p>
+                    <p>trip history screen</p>
                 </picture>
                 <picture>
                     <img src={phone39} alt="" />
-                    <p>Landing Page</p>
+                    <p>inbox screen</p>
                 </picture>
                 <picture>
                     <img src={phone40} alt="" />
-                    <p>Landing Page</p>
+                    <p>messaging screen</p>
                 </picture>
                  <picture>
                     <img src={phone41} alt="" />
-                    <p>Landing Page</p>
+                    <p> promotions screen</p>
                 </picture>
                 <picture>
                     <img src={phone42} alt="" />
-                    <p>Landing Page</p>
+                    <p>earning screen</p>
                 </picture>
                </section>
             </section>

@@ -65,41 +65,41 @@ export default function Section9() {
              <picture>
                 <img src={wireframe5} alt="" />
                 <div className={style.content}>
-                    <p>Signup Screen</p>
-                    <p>Create Password</p>
-                    <p>Login Screen</p>
+                    <p>Home screen</p>
+                    <p>Send item</p>
+                    <p>Recipients details</p>
                 </div>
             </picture>
             <picture>
                 <img src={wireframe6} alt="" />
                 <div className={style.content}>
-                    <p>Signup Screen</p>
-                    <p>Create Password</p>
-                    <p>Login Screen</p>
+                    <p>Payment</p>
+                    <p>Searching rider</p>
+                    <p>Confirm rider</p>
                 </div>
             </picture>
              <picture>
                 <img src={wireframe7} alt="" />
                 <div className={style.content}>
-                    <p>Signup Screen</p>
-                    <p>Create Password</p>
-                    <p>Login Screen</p>
+                    <p>Rider arrived</p>
+                    <p>Drop off</p>
+                    <p>Rate rider</p>
                 </div>
             </picture>
             <picture>
                 <img src={wireframe8} alt="" />
                 <div className={style.content}>
-                    <p>Signup Screen</p>
-                    <p>Create Password</p>
-                    <p>Login Screen</p>
+                    <p>Track delivery</p>
+                    <p>Tracking delivery</p>
+                    <p>Profile</p>
                 </div>
             </picture>
              <picture>
                 <img src={wireframe9} alt="" />
                 <div className={style.content}>
-                    <p>Signup Screen</p>
-                    <p>Create Password</p>
-                    <p>Login Screen</p>
+                    <p>Add card</p>
+                    <p>Chatting</p>
+                    <p>OTP verification</p>
                 </div>
             </picture>
            </section>
