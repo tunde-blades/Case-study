@@ -485,6 +485,7 @@
     padding: 20px;
 }
 .wireframing h3{
+    margin-top: 100px;
     margin-bottom: 20px;
 }
 .wireframing picture{
@@ -532,6 +533,52 @@
     max-width: 700px;
 }
 
+
+.section10{
+    margin-top: 100px;
+    padding: 20px;
+}
+.section10 h3{
+    margin-bottom: 50px;
+}
+.section10 .images{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.section10 .images img{
+    width: 90%;
+    max-width: 300px;
+}
+.riderbox{
+    margin-top: 100px;
+    padding: 20px;
+}
+.riderbox h3{
+    margin-bottom: 50px;
+}
+.riders{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.riders img{
+    width: 90%;
+    max-width: 300px;
+}
+.imageback h3{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.imageback img{
+    width: 100%;
+}
+.thanks{
+    margin-top: 100px;
+    text-align: center;
+}
 
 
 

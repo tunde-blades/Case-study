@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../layouts/credentials/Header'
 import Section1 from '../layouts/logistics/Section1'
+import Section10 from '../layouts/logistics/Section10'
 import Section2 from '../layouts/logistics/Section2'
 import Section3 from '../layouts/logistics/Section3'
 import Section4 from '../layouts/logistics/Section4'
@@ -24,6 +25,7 @@ export default function Logistics() {
         <Section7/>
         <Section8/>
         <Section9/>
+        <Section10/>
     </div>
   )
 }
