@@ -393,8 +393,9 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 20px;
     flex: 1;
+    font-size: 13px;
 }
 .section8 .boxhead{
     display: grid;
