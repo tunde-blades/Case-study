@@ -515,6 +515,7 @@
 .paperwire .content{
     display: flex;
     justify-content: space-evenly;
+    font-size: 13px;
 }
 
 
@@ -546,6 +547,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
+    font-size: 13px;
 }
 .section10 .images img{
     width: 90%;
@@ -563,6 +565,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
+    font-size: 13px;
 }
 .riders img{
     width: 90%;
