@@ -340,6 +340,7 @@
     max-width: 800px;
     position: relative;
     margin: auto;
+    padding:0 20px
 }
 .section8 h3{
     text-align: center;
@@ -349,7 +350,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 20px;
     flex: 1;
 }
 .section8 .boxhead{
@@ -390,6 +391,11 @@
     color: rgb(182, 5, 79);
 }
 
+
+
+.section9{
+    padding:0 20px;
+}
 .section9 h3{
     margin-top: 100px;
     margin-bottom: 50px;
@@ -432,6 +438,9 @@
 .section10 img{
     width: 90%;
     max-width: 600px;
+}
+.thanks{
+    margin-top: 50px;
 }
 
 

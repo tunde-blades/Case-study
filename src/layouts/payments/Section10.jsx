@@ -122,7 +122,7 @@ export default function Section10() {
             <picture>
                 <img src={image21} alt="" />
             </picture>
-            <h3>Thank You <br /> For Viewing</h3>
+            <h3 className={style.thanks}>Thank You <br /> For Viewing</h3>
            </section>
 
         </section>

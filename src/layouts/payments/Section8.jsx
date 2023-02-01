@@ -18,7 +18,7 @@ export default function Section8() {
                             <li>security features</li>
                             <li>no extra charges</li>
                         </ul>
-                        <ul clasAsName={style.list2}>
+                        <ul className={style.list2}>
                             <li>stored emails</li>
                             <li>no sign up</li>
                             <li>customer care</li>
