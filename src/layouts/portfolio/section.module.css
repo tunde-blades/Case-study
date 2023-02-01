@@ -302,16 +302,13 @@ nav .contactbtn{
     box-shadow: 2px 2px 2px rgb(218, 218, 218),inset 2px 2px 2px rgb(218, 218, 218);
 }
 .section4 img{
-    width: 55%;
-    max-width: 450px;
+    width: 40%;
     padding: 20px;
-    max-height: 200px;
     position: relative;
     margin: auto;
 }
 .section4 .content {
-    width: 100%;
-    max-width: 250px;
+    width: 90%;
     background-color: rgba(128, 128, 128, 0.13);
     padding:20px;
     display: flex;
