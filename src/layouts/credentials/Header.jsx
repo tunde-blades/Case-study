@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Menu from '../../components/Menu'
 import style from './section.module.css'
 import {useState} from 'react'
-
+import { Icon } from '@iconify/react'
 export default function Header() {
 
     let [openNav, setopenNav] = useState(false)
@@ -18,9 +18,9 @@ export default function Header() {
         <section className={style.headers}>
             <header>Maxwell Chris-Ogar</header>
              <div className={style.menu}>
-              <button onClick={displayNav}>{
-                openNav ? <div>cancel</div> : <div>open</div>
-              }</button>
+               <div className='icons' onClick={displayNav}>{
+                openNav ? <div><Icon icon="humbleicons:times" /></div> : <div><Icon icon="material-symbols:menu-rounded" /></div>
+              }</div>
                 {
                     openNav && <Menu/> 
                 }

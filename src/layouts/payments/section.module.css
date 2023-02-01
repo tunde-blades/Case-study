@@ -324,10 +324,8 @@
 }
 
 .box2{
-    display: grid;
-    grid-template-columns: .1fr 1fr;
-    justify-items: end;
-
+    display: flex;
+    justify-content: space-between;
 }
 .box2 img{
     width: 85%;

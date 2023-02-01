@@ -8,7 +8,7 @@ import designApp from '../../images/designapp.png'
 import background from '../../images/portfolio background.svg'
 import vector from '../../images/Vector.svg'
 import Menu from '../../components/Menu'
-
+import { Icon } from '@iconify/react'
 import { useState } from 'react'
 
 
@@ -31,9 +31,9 @@ export default function Section1() {
          <section className={style.headers}>
             <header>Maxwell Chris-Ogar</header>
             <div className={style.menu}>
-                <button onClick={displayNav}>{
-                openNav ? <div>cancel</div> : <div>open</div>
-              }</button>
+                <div onClick={displayNav}>{
+                openNav ? <div><Icon className='icons'  icon="humbleicons:times" /></div> : <div><Icon className='icons'  icon="material-symbols:menu-rounded" /></div>
+              }</div>
                 {
                     openNav && <Menu/> 
                 }

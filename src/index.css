@@ -23,3 +23,7 @@ button{
 a{
     text-decoration: none;
 }
+.icons{
+    font-size:30px;
+    cursor: pointer;
+}
