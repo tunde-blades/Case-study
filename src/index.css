@@ -9,10 +9,15 @@ font-family: 'Titillium Web', sans-serif;*/
     scroll-behavior: smooth;
     padding: 0;
     margin: 0;
-    font-family: 'Paytone One', sans-serif;
 }
 button{
     cursor: pointer;
+}
+h1{
+    font-family: serif;
+}
+h3,h4,h5,p,small{
+     font-family:'arial', sans-serif;
 }
 .container{
     position: relative;
