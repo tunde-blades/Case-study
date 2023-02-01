@@ -4,6 +4,7 @@ import mobile1 from '../../images/mobile1.png'
 import linkedinlogo from '../../images/LinkedIn logo.svg'
 import behancelogo from '../../images/behance logo.svg'
 import dribblelogo from '../../images/dribbble logo.svg'
+import downlodResume from '../../images/MaxwellResume.pdf'
 import {Link} from 'react-router-dom'
 
 export default function Section2() {
@@ -12,9 +13,15 @@ export default function Section2() {
         <section className={style.section2}>
             <section className={style.trustee}>
                 <picture>
-                    <img src={linkedinlogo} alt="" />
-                    <img src={dribblelogo} alt="" />
-                    <img src={behancelogo} alt="" />
+                    <Link to='http://www.linkedin.com/in/maxwell-chris-ogar-b9483b236'>
+                        <img src={linkedinlogo} alt="" />
+                    </Link>
+                    <Link to='https://dribbble.com/maxwellchris-ogar'>
+                        <img src={dribblelogo} alt="" />
+                    </Link>
+                    <Link to='https://www.behance.net/maxwellchris-ogar'>
+                        <img src={behancelogo} alt="" />
+                    </Link>
                 </picture>
             </section>
             <section className={style.servicebox}>
@@ -27,7 +34,7 @@ export default function Section2() {
                     <small>user interface design <br /> building Wireframes. <br /> Content strategy. <br /> creating Information architecture. <br /> Brand and design system development. <br /> Design technology consulting</small> <br/>
                     <div className={style.btns}>
                         <button className={style.credentials}><Link to='/creadentials'>See Credentials</Link></button>
-                        <button className={style.resume}>Download Resume</button>
+                        <button className={style.resume}><a href={downlodResume} download> Download Resume</a></button>
                     </div>
                 </section>
             </section>
