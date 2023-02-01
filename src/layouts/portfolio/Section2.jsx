@@ -4,6 +4,7 @@ import mobile1 from '../../images/mobile1.png'
 import linkedinlogo from '../../images/LinkedIn logo.svg'
 import behancelogo from '../../images/behance logo.svg'
 import dribblelogo from '../../images/dribbble logo.svg'
+import {Link} from 'react-router-dom'
 
 export default function Section2() {
   return (
@@ -25,7 +26,7 @@ export default function Section2() {
                     <p>uI/uX design</p>
                     <small>user interface design <br /> building Wireframes. <br /> Content strategy. <br /> creating Information architecture. <br /> Brand and design system development. <br /> Design technology consulting</small> <br/>
                     <div className={style.btns}>
-                        <button className={style.credentials}>See Credentials</button>
+                        <button className={style.credentials}><Link to='/creadentials'>See Credentials</Link></button>
                         <button className={style.resume}>Download Resume</button>
                     </div>
                 </section>
