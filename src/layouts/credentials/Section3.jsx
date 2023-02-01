@@ -8,7 +8,7 @@ export default function Section3() {
   return (
     <div className='container'>
         <section className={style.certificate}>
-            <h3>course Certificates</h3>
+            <h3 className={style.courseC}>course Certificates</h3>
             <section className={style.certlist}>
                 <div>
                     <h3>Building Wireframes And Low Fidelity Frames</h3>
