@@ -7,9 +7,9 @@ export default function Menu() {
     <div>
         <nav className={style.mobilenavs}>
                 <button><Link to='/'>Home</Link></button>
-                <button><Link to='/payments'>Works</Link></button>
+                <button>Works</button>
                 <button><Link to='/credentials'> Credentials</Link></button>
-                <button className={style.contactbtn}><Link to='/logistics'>Logistics</Link></button>
+                <button className={style.contactbtn}>Contact us</button>
             </nav>
     </div>
   )
