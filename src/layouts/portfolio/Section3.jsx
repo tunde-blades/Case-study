@@ -28,7 +28,7 @@ export default function Section3() {
                         <small className={style.contentText}>Product that helps user send items within 
                             the city with a convenient fee
                         </small>
-                        <button className={style.figmabtn}><Link to='https://www.figma.com/file/BZl2V4VmFAWj2VrNokgfpp/FINTECH?node-id=1%3A2'>Figma file</Link></button>
+                        <button className={style.figmabtn}><Link to='https://figma.com/file/BZl2V4VmFAWj2VrNokgfpp/FINTECH?node-id=1%3A2'>Figma file</Link></button>
                         <button className={style.casebtn}> <Link to = '/logistics'>Case study</Link> </button>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ export default function Section3() {
                         </span>
                         <small className={style.contentText}>This product enables users to conviniently pay for bils online without having to login
                         </small>
-                        <button className={style.figmabtn}><Link to='https://www.figma.com/file/MfbwlMEBxK5iMgAmNRzprf/bills?node-id=0%3A1&t=jZiQN6bJrfWDGrBq-1'>Figma file</Link></button>
+                        <button className={style.figmabtn}><Link to='https://figma.com/file/MfbwlMEBxK5iMgAmNRzprf/bills?node-id=0%3A1&t=jZiQN6bJrfWDGrBq-1'>Figma file</Link></button>
                         <button className={style.casebtn}><Link to = '/payments'>Case study</Link> </button>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ export default function Section3() {
                             </div>
                             <small>An investment website</small>
                         </span>
-                        <button className={style.figmabtn}><Link to='https://www.figma.com/file/sT3VgZD8ZsmuBAt3DEMaNd/websites?node-id=0%3A1'>Figma file</Link></button>
+                        <button className={style.figmabtn}><Link to='https://figma.com/file/sT3VgZD8ZsmuBAt3DEMaNd/websites?node-id=0%3A1'>Figma file</Link></button>
                     </div>
                 </div>
             </section>

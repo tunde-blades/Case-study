@@ -20,23 +20,35 @@ export default function Section2() {
             </small>
         </section>
         <section className={style.work}>
-            <h3>Work History</h3>
-            <div>
-                <h5>Civil Engineer</h5>
-                <h6>Laluco Construction</h6>
+            <div className={style.content}>  
+                <h3>Work History</h3>
+                <div>
+                    <h5>Civil Engineer</h5>
+                    <h6>Laluco Construction</h6>
+                </div>
+                <button>July 2018- February 2021</button>
             </div>
-            <button>July 2018- February 2021</button>
-            <div>
-                <h5>Pwan Group</h5>
-                <h6>ux Designer</h6>
-            </div>
-            <button>August 2021 Present</button>
             <div className={style.content}>
-                <small>As a UX designer I have worked on various projects which includes working for a real estate company and designing a learning management system for a school</small> <br />
-                <small>I have been working with pwan group for over a year, designing and prototyping various products that are online, building case studies and carrying out user research to enable our team work better</small> <br />
-                <small>Refer to: </small> <br />
-                <Link to='/www.pwanhomes.com'>www.pwanhomes.com </Link> <br />
-                <Link to='/www.pwangroupbuytosell..com'>www.pwangroupbuytosell..com</Link>
+                <div>
+                    <h5>Pwan Group</h5>
+                    <h6>ux Designer</h6>
+                </div>
+                <button>August 2021 Present</button>
+                <small>As a UX designer I have worked on various projects which includes working for a real estate company and designing a learning management system for a school
+                    <br/>
+                    I have been working with pwan group for over a year, designing and prototyping various products that are online, building case studies and carrying out user research to enable our team work better.</small> 
+            </div>
+            <div className={style.content}>
+                <h5>Solomon Hills</h5>
+                <h6>Product Designer</h6>
+                <button>March 2022 - present</button>
+                <small>Tasked with building a mobile version of the solomonhills web application</small>
+            </div>
+            <div className={style.content}>
+                <h5>Solomon Hills</h5>
+                <h6>Product Designer</h6>
+                <button>March 2022 - present</button>
+                <small>Tasked with building a mobile version of the solomonhills web application</small>
             </div>
         </section>
     </div>

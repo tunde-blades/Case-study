@@ -28,7 +28,7 @@ export default function Section4() {
                     <li>saving money</li>
                 </ul>
                 <div className={style.btns}>
-                    <button className={style.figmabtn}><Link to='https://www.figma.com/file/BZl2V4VmFAWj2VrNokgfpp/FINTECH?node-id=0%3A1&t=ptjCThJ5kPFug1dG-1'>Figma file</Link></button>
+                    <button className={style.figmabtn}><Link to='https://figma.com/file/BZl2V4VmFAWj2VrNokgfpp/FINTECH?node-id=0%3A1&t=ptjCThJ5kPFug1dG-1'>Figma file</Link></button>
                     <button className={style.casebtn}>Case study</button>
                 </div>
             </div>
