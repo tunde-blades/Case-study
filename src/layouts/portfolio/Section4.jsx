@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './section.module.css'
-import mobilelist from '../../images/mobilelist.png'
+import mobilelist from '../../images/mobilelist.jpg.png'
 import logo from '../../images/necta logo.png'
 
 

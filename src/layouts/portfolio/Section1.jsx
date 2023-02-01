@@ -41,9 +41,9 @@ export default function Section1() {
             </div>
             <nav className={style.navs}>
                 <button><Link to='/'>Home</Link></button>
-                <button><Link to='/payments'>Works</Link></button>
+                <button>Works</button>
                 <button><Link to='/credentials'> Credentials</Link></button>
-                <button className={style.contactbtn}><Link to='/logistics'>Logistics</Link></button>
+                <button className={style.contactbtn}>Contact us</button>
             </nav>
         </section>
         <section className={style.section1}>
@@ -51,7 +51,7 @@ export default function Section1() {
                 <div className={style.content}>
                     <h1>Want to bring the Abstract into reality?</h1>
                     <p>That can be achieved through my multi-chemicals of research, analysis and design.</p>
-                    <button>Get In Touch</button>
+                    <button> <Link to='maxy525@live.co.uk'>Get In Touch</Link></button>
                 </div>
                 <picture className={style.images}>
                     <picture className={style.man}>

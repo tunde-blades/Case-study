@@ -27,7 +27,7 @@ export default function Header() {
             </div>
             <nav className={style.navs}>
                 <button><Link to='/'>Home</Link></button>
-                <button><Link to='/payments'>Works</Link></button>
+                <button>Works</button>
                 <button><Link to='/credentials'> Credentials</Link></button>
                 <button className={style.contactbtn}>Contact</button>
             </nav>

@@ -67,8 +67,10 @@ nav .contactbtn{
     background-color: rgb(65, 2, 124);
     border: none;
     border-radius: .3em;
-    color: white;
     margin-top: 10px;
+}
+.section1 .content button a{
+    color: white;
 }
 .section1 .container img{
     width: 300px;
@@ -120,7 +122,6 @@ nav .contactbtn{
 }
 .designicon img{
     width: 30%;
-    max-width: 150px;
 }
 
 
@@ -238,6 +239,22 @@ nav .contactbtn{
     justify-content: space-between;
     gap: 15px;
 }
+.section3 .content2 {
+    width: 100%;
+    max-width: 250px;
+    background-color: rgba(128, 128, 128, 0.13);
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    text-align: center;
+}
+.section3 .content2 button{
+    width: 100%;
+}
+
 .contentText{
     margin-left: 20px;
 }
@@ -343,6 +360,7 @@ nav .contactbtn{
     padding: 8px 20px;
     border-radius: .5em;
     margin-bottom: 20px;
+    color: rgb(65, 2, 124);
 }
 .section5 p{
     line-height: 1.8em;
@@ -415,7 +433,10 @@ nav .contactbtn{
         max-width: 280px;
         z-index: -2;
 }
-
+.designicon img{
+    width: 30%;
+    max-width: 150px;
+}
 
     .section2 .servicebox{
         flex-direction: column;
