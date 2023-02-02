@@ -45,10 +45,10 @@ export default function Section2() {
                 <small>Tasked with building a mobile version of the solomonhills web application</small>
             </div>
             <div className={style.content}>
-                <h5>Solomon Hills</h5>
+                <h5>Paramount Students</h5>
                 <h6>Product Designer</h6>
-                <button>March 2022 - present</button>
-                <small>Tasked with building a mobile version of the solomonhills web application</small>
+                <button>January 2023 - present</button>
+                <small>As a product designer, my responsibility is to design new releases and intake update to the current designs</small>
             </div>
         </section>
     </div>
