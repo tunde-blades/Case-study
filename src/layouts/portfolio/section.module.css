@@ -51,11 +51,11 @@ nav .contactbtn{
 }
 .section1 .content{
     position: relative;
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .section1 .content h1{
     font-size: 35px;
