@@ -13,15 +13,15 @@ export default function Section2() {
         <section className={style.section2}>
             <section className={style.trustee}>
                 <picture>
-                    <Link to='http://www.linkedin.com/in/maxwell-chris-ogar-b9483b236'>
+                    <a href='http://www.linkedin.com/in/maxwell-chris-ogar-b9483b236'>
                         <img src={linkedinlogo} alt="" />
-                    </Link>
-                    <Link to='https://dribbble.com/maxwellchris-ogar'>
+                    </a>
+                    <a href='https://dribbble.com/maxwellchris-ogar'>
                         <img src={dribblelogo} alt="" />
-                    </Link>
-                    <Link to='https://www.behance.net/maxwellchris-ogar'>
+                    </a>
+                    <a href='https://www.behance.net/maxwellchris-ogar'>
                         <img src={behancelogo} alt="" />
-                    </Link>
+                    </a>
                 </picture>
             </section>
             <section className={style.servicebox}>
